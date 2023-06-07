@@ -1,0 +1,38 @@
+.container{
+    width: 300px;
+    background-color: royalblue;
+    position: relative;
+}
+.container .item{
+    border: 4px dashed red;
+    background-color: orange;
+}
+.container .item:nth-child(1){
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+    display: inline;
+}
+.container .item:nth-child(2){
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+    z-index: 3;
+    display: inline;
+}
+.container .item:nth-child(3){
+    width: 60px;
+    height: 120px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+.wrap{
+    width: 500px;
+    height: 400px;
+    background-color: blueviolet;
+    
+}
